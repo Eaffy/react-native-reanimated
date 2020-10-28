@@ -70,13 +70,7 @@ Pod::Spec.new do |s|
   s.dependency 'Yoga'
   s.dependency 'DoubleConversion'
   s.dependency 'glog'
-
-  if reactVersion.match(/^0.62/) 
-    s.dependency 'ReactCommon/callinvoker'
-  else
-    s.dependency 'React-callinvoker'
-  end
-
+  s.dependency 'ReactCommon/callinvoker'
   s.dependency 'Folly'
 
 end
