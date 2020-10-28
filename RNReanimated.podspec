@@ -45,8 +45,6 @@ Pod::Spec.new do |s|
                                "OTHER_CFLAGS" => "$(inherited)" + " " + folly_flags  }
 
   s.requires_arc = true
-
-  s.dependency "React"
   s.dependency 'FBLazyVector'
   s.dependency 'FBReactNativeSpec'
   s.dependency 'RCTRequired'
