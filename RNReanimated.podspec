@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
   s.dependency 'Yoga'
   s.dependency 'DoubleConversion'
   s.dependency 'glog'
-  s.dependency 'ReactCommon/callinvoker'
+  s.dependency 'ReactCommon/jscallinvoker'
   s.dependency 'Folly'
 
 end
